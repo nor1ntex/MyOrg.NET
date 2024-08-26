@@ -1,0 +1,73 @@
+@charset "UTF-8";
+:root{
+    --cor1: rgb(65, 65, 65);
+    --cor2: rgb(158, 18, 128);
+    --cor3: rgb(0, 0, 0);
+    --cor4: rgb(255, 0, 0);
+    --cor5: rgb(154, 207, 231);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "New Amsterdam", sans-serif;
+}
+body{
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+h1,h2{
+    color: var(--cor5);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+header{
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 0px;
+    background-color: var(--cor4);
+}
+footer{
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    top: 900px;
+    left: 0px;
+    padding: 5px;
+    margin: 0px;
+    background-color: var(--cor4);
+}
+.A1{
+    position: absolute;
+    height: 400px;
+    width: 1300px;
+    top: 125px;
+    left: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--cor1);
+}
+.A2{
+    position: absolute;
+    height: 175px;
+    width: 1300px;
+    top: 600px;
+    left: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--cor1);
+    overflow-x: auto;
+    gap: 15px;
+}
+.D1{
+    display: flex;
+}
+.A1:hover, .A2:hover {
+    background-color: var(--cor4);
+}
